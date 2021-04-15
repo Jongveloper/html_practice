@@ -5,23 +5,27 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <style>
+        body{
+            background: #f8f8f8;
+
+        }
         .jumbotron{
 
             width: 500px;
-            height: 150px;
+            height: 120px;
 
-            margin: 10% auto 0 45.3%;
+            margin: 10% auto 0 45.8%;
         }
         .login_wrap{
 
             width:100px;
-            margin: 0 auto 1% 46.3%;
+            margin: 0 auto 2px 46.3%;
             padding: 2px 128px 2px 5px;
         }
 
         .btn{
             width: 100px;
-            margin: 0 auto 1% 46.5%;
+            margin: 0 auto 1% 46.7%;
 
         }
 
@@ -29,26 +33,26 @@
             color:gray;
             font-size:13px;
             text-decoration: underline;
-            margin: 0 auto 1% 45.2%;
+            margin: 0 auto 1% 45.3%;
         }
     </style>
 </head>
 <body>
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid form-login">
     <div class="container">
-        <h3 class="display-4">html공부</h3>
-        <p class="lead">부트스트랩도 공부!</p>
+        <h3 class="display-4">로그인</h3>
+        <p style="7px" class="lead">로그인해보세요!</p>
     </div>
 </div>
 
-<div class="login_wrap">
+<div class="login_wrap form-login">
     <input placeholder="아이디">
 </div>
 
-<div class="login_wrap">
+<div class="login_wrap form-login">
     <input placeholder="비밀번호">
 </div>
-<button type="button" class="btn btn-success">로그인</button>
+<button type="button" class="btn btn-success form-login">로그인</button>
 <ul class="forgot">
     아이디/비밀번호찾기
 </ul>

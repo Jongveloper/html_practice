@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>올드카매니아</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+    body{
+        background: #faebd7;
+        font-family: 'Jua', sans-serif;
+    }
+
+    .car-img {
+          position:relative;
+          width: 650px;
+          height: 300px;
+
+          margin: auto auto auto auto;
+
+          display: block;
+    }
+
+    .sign-info{
+        position:relative;
+        width: 200px;
+        margin: auto;
+    }
+
+    .btn-sign{
+        position:relative;
+        width: 100px;
+        margin: auto;
+
+        display: block;
+    }
+    .title{
+        width: 220px;
+        margin: 400px auto auto auto;
+
+    }
+
+</style>
+<div class="div-position">
+    <body>
+        <h1 class="title text-danger">All The Car</h1>
+        <img class="car-img" src="https://cdn.pixabay.com/photo/2021/04/12/06/31/old-car-6171500_1280.png"
+             alt="https://pixabay.com/">
+        <div class="mb-3 sign-info">
+            <label for="exampleInputEmail1" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3 sign-info">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check sign-info">
+        </div>
+        <button type="submit" class="btn btn-danger btn-sign">Submit</button>
+    </body>
+</div>
+</html>

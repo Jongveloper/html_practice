@@ -41,24 +41,38 @@
 
     }
 
+
 </style>
+<script>
+function submit_bt(){
+        Swal.fire({
+          icon: 'success',
+          title: 'Your work has been saved',
+          showConfirmButton: false,
+          timer: 1500
+        })
+    }
+
+
+</script>
 <div class="div-position">
     <body>
-        <h1 class="title text-danger">All The Car</h1>
-        <img class="car-img" src="https://cdn.pixabay.com/photo/2021/04/12/06/31/old-car-6171500_1280.png"
-             alt="https://pixabay.com/">
-        <div class="mb-3 sign-info">
-            <label for="exampleInputEmail1" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text"></div>
-        </div>
-        <div class="mb-3 sign-info">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check sign-info">
-        </div>
-        <button type="submit" class="btn btn-danger btn-sign">Submit</button>
+    <h1 class="title text-danger">All The Car</h1>
+    <img class="car-img" src="https://cdn.pixabay.com/photo/2021/04/12/06/31/old-car-6171500_1280.png"
+         alt="https://pixabay.com/">
+    <div class="mb-3 sign-info">
+        <label for="exampleInputEmail1" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3 sign-info">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check sign-info">
+    </div>
+    <button type="submit" class="btn btn-danger btn-sign" onclick="submit_bt();">Submit</button>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </div>
 </html>
